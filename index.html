@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>YusukeHoshinoの紹介ページ</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <p class="site-title-sub">------ Web application portfolio ------ </p>
+      <h1 class="site-title">My WORKS</h1>
+      <p class="site-description">Cheak out some of my works.</p>
+      <div class="buttons">
+        <a class="button" href="#about">Learn MORE</a>
+        <a class="button button-orange" href="#contact">SEND MESSAGE</a>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <h2 class="heading">PROFILE</h2>
+      <p class="about-text">
+        今は、勉強した事を復習できるクイズアプリを開発中です！ぜひ遊んでみてね！
+      </p>
+    </section>
+
+    <section class="works">
+      <h2 class="heading">My WORKS</h2>
+      <div class="works-wrapper clearfix">
+        <div class="work-box">
+          <img class="work-image" src="images/pictweet.jpg" alt="制作事例">
+          <div class="work-description">
+            pictweet <br>
+            <a href="#" class="button button-ghost">READ MORE</a>
+          </div>
+        </div>
+        
+        <div class="work-box">
+          <img class="work-image" src="images/mooovi.jpg" alt="制作事例">
+          <div class="work-description">
+            Mooovi <br>
+            <a href="#" class="button button-ghost">READ MORE</a>
+          </div>
+        </div>
+        
+        <div class="work-box">
+          <img class="work-image" src="images/profy.jpg" alt="制作事例">
+          <div class="work-description">
+            Profy <br>
+            <a href="#" class="button button-ghost">READ MORE</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+      
+    <section class="contact" id="contact">
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="NAME">
+        <textarea name="message" placeholder="MESSSGE"></textarea>
+        <input type="submit" value="SEND">
+      </form>
+    </section>
+  </body>
+</html>
